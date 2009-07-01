@@ -1,0 +1,3 @@
+== Simple Lotto Application for URUG Rails Workshop 2009
+
+Quick and dirty application to help us give away free books at the Rails workshop.
