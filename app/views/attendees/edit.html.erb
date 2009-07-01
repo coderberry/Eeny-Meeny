@@ -1,0 +1,16 @@
+<h1>Editing attendee</h1>
+
+<% form_for(@attendee) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @attendee %> |
+<%= link_to 'Back', attendees_path %>
